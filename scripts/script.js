@@ -54,7 +54,7 @@ async function movimenta() { // Criando a função que faz todo o movimento, col
     direcaoY *= -1; // Muda a direção do eixo Y após a colisão
     dvdLogo.style.fill = cor; // Em caso de colisão no eixo Y, altera a cor do logo
   }
-
+  
   // Executando a função de movimentação do logo
   window.requestAnimationFrame(movimenta);
 }
